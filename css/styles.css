@@ -1,0 +1,165 @@
+/* **************************Tag Selectors************************** */
+
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    color: #139487;
+    font-size: 5.625rem;
+    font-family: 'Allura', cursive;
+    /* line-height: 2; */
+    margin: 50px auto 0 auto;
+    
+}
+
+h2 {
+    color: #139487;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2rem;
+    /* margin: 0 auto 20px auto; */
+}
+
+h3 {
+    color: #139487;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    color: #b4b4b4;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 6px;
+    width: 5%;
+    margin: 100px auto;
+    
+}
+
+
+
+
+
+/* **************************Class Selectors************************** */
+
+.top-Container {
+    background-color: #9bdfd2;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-Container h2 {
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 30px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.middle-container{
+    margin-top: 100px;
+}
+
+.profile {
+    margin: 100px auto;
+    width: 70%;
+}
+
+.profile-img {
+    width: 25%;
+}
+
+
+.html-img {
+    margin-right: 30px;
+    float: left;
+    width: 25%;
+}
+
+.css-img{
+    margin-left: 30px;
+    float: right;
+    width: 25%;
+    
+}
+/* .css-description{
+    clear: right;
+
+} */
+
+.js-img{
+    margin-right: 30px;
+    float: left;
+    width: 25%;
+    
+}
+
+.skills-row {
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+    
+}
+
+.contact-me p {
+    margin: 30px;
+}
+
+.contact-me{
+    margin: 100px;
+}
+.btn{
+    background: #139487;
+    border: #139487;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 30px;
+    text-decoration: none; 
+}
+
+.btn:hover {
+    background: #5fbeb5;
+    text-decoration: none;
+}
+
+.bottom-Container {
+    background-color: #9bdfd2;
+    padding: 50px 0 20px 0;
+    
+}
+
+.bottom-Container a {
+    padding: 0px 20px;
+    color: #139487;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+
+}
+
+.bottom-Container a:hover {
+    color: #276d66;
+}
+.bottom-Container p {
+    color: grey;
+    font-weight: bold;
+    font-size: 0.7rem;
+    padding: 20px 0px 20px 0px;
+}
+
+/* **************************Id Selectors************************** */
