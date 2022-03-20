@@ -1,65 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vikas Patel</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="icons/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="top-Container">
-        <img class="top-cloud" src="Images/cloud.png" alt="">
-        <h1>I'm Vikas.</h1>
-        <h2>a web developer.</h2>
-        <img class="bottom-cloud" src="Images/cloud.png" alt="">
-        <img src="Images/mountain.png" alt="">
-    </div>
 
-    <div class="middle-Container">
-        <div class="profile">
-            <img class="profile-img" src="Images/vikas.png" alt="Vikas' Profile Picture">
-            <h2>Hello.</h2>
-            <p>I am a learner, working on the required skills for a fullstack Web Developer. Rigth now I am working on developing a website using HTML, CSS and JavaScript which is containing my own personal data. This is a part of my Web Development learning under Dr. Angela yu<em>(Founder and CTO of <a href="https://www.appbrewery.co/">The App Brewery</a>)</em>.</p>
-        </div>
-        <hr>
-        <div class="skills">
-            <h2>My Skills.</h2>
-            <div class="skills-row">
-                <img class="html-img" src="Images/html.png" alt="Skill Image">
-                <h3>HTML</h3>
-                <p>HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content.</p>
-            </div>
-            <div class="skills-row">
-                <img class="css-img" src="Images/css.png" alt="Skill Image">
-                <h3>CSS</h3>
-                <p class="css-description">CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once.</p>
-            </div>
-            <div class="skills-row">
-                <img class="js-img" src="Images/java-script.png" alt="Skill Image">
-                <h3>JavaScript</h3>
-                <p>JavaScript is the world's most popular programming language. JavaScript is the programming language of the Web. JavaScript to program the behavior of web pages.</p>
-            </div>
-        </div>
-        <hr>
-        <div class="contact-me">
-            <h2>Get In Touch</h2>
-            <h3>Loved this beautiful website I made?</h3>
-            <p>Want your website to be like this do contact me. Will be my pleasure to work with you.</p>
-            <button class="btn"><a class="btn" href="mailto:vikspatel121@gmail.com">CONTACT ME</a></button>
-            
-        </div>
-    </div>
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
 
-    <div class="bottom-Container">
-        <a href="https://vikas94patel.github.io/Personal-Data-Site/" class="footer-link">Website</a>
-        <a href="https://www.linkedin.com/in/vikas-patel-3269351a9/" class="footer-link">LinkedIn</a>
-        <a href="https://www.facebook.com/" class="footer-link">Facebook</a>
-        <p>© 2022 Vikas Patel</p>
-    </div>
-</body>
+    <!-- Bootstrap script -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Merriweather&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- favicon -->
+    <link rel="icon" href="icons/favicon.ico" />
+
+    <!-- Font Awesome icons script -->
+    <script
+      src="https://kit.fontawesome.com/b2de484180.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Home page start here  -->
+    <section>
+      <div class="container-fluid bg-light-blue position-relative">
+
+        <!-- Nav bar -->
+        <div class="row bg-light-blue pl-5">
+          <div class="col-lg-12 px-5">
+            <nav class="navbar navbar-expand-lg navbar-light p-4">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="Images/vikas.png"
+                  width="50"
+                  height="50"
+                  alt="profile-img"
+                />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link mx-2 text-light" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-2 text-light" href="#intro">Intro</a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link mx-2 navbar-link text-light"
+                      href="#skills"
+                      >Skills</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link navbar-link mx-2 text-light"
+                      href="#education"
+                      >Education</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link navbar-link mx-2 text-light"
+                      href="#contact"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <div class="row mt-5 pt-2">
+          <div class="col-md-12 top-Container">
+            <img class="top-cloud m-3" src="Images/cloud.png" alt="Cloud" />
+            <h1 class="mb-0 pb-0">I'm Vikas.</h1>
+            <h3>a web developer</h3>
+            <img class="bottom-cloud" src="Images/cloud.png" alt="Cloud" />
+            <img class="mountain" src="Images/mountain.png" alt="Mountain" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Itroduction section -->
+    <section id="intro">
+      <div class="container">
+        <div class="row m-5 p-5">
+          <div class="col-lg-4 m-auto">
+            <img
+              src="Images/vikas.png"
+              alt="Vikas' Profile Picture"
+            />
+          </div>
+          <div class="col-lg-8 mt-5">
+            <h2 class="p-3">Hello</h2>
+            <p class="w-75 m-auto">
+              This is Vikas Patel. A web development enthusiast with a passion for
+              developing scalable web applications and working across the full
+              stack.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills">
+      <div class="container-fluid bg-light-blue">
+        <div class="row">
+          <div class="col-md-12 m-5">
+            <h2>Skills</h2>
+          </div>
+
+        </div>
+        
+      </div>
+    </section>
+  </body>
 </html>
