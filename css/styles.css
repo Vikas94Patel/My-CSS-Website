@@ -13,16 +13,17 @@ h1{
 }
 
 h2 {
-    color: #4D77FF;
+    color: #1a7e76;
     font-family: 'Merriweather', serif;
     font-size: 3rem;
     font-weight: 700;
     /* margin: 0 auto 20px auto; */
 }
 
-h3, h6 {
-    color: #4D77FF;
+h3, h5, h6, p {
+    color: #1a7e76;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 hr {
@@ -31,7 +32,7 @@ hr {
     border-top-style: dotted;
     border-width: 6px;
     width: 5%;
-    margin: 100px auto;   
+    /* margin: 100px auto;    */
 }
 
 .section-padding {
@@ -65,9 +66,10 @@ hr {
 /* education Section */
 
 .education-img {
-    height: 400px; 
-    width:100%;
-       
+    border-radius: 100%;
+    height: 50%;
+    width: 50%
+    
 }
 
 
@@ -77,15 +79,19 @@ hr {
 }
 
 .color-blue {
-    color: #4D77FF;
+    color: #00cec9;
+}
+.color-lg-blue {
+    color: #81ecec;
 }
 
-.bg-blue {
-    background-color: #4D77FF;
+.background-dark {
+    background-color: #00cec9;
 }
 
-.bg-light-blue {
-    background-color: #56BBF1
+.background-light {
+    background-color: #81ecec
+
 }
 
 .bg-yellow {
