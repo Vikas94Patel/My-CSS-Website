@@ -47,14 +47,14 @@ hr {
 
 .top-cloud {
     position: absolute;
-    top: -18%;
+    top: -15%;
     right: 20%;
 }
 
 .bottom-cloud {
     position: absolute;
     left: 8%;
-    bottom: 45%;
+    bottom: 60%;
     
 }
 
@@ -98,3 +98,18 @@ hr {
 .bg-yellow {
     background-color: #F2FA5A;
 }
+
+@media screen and (max-width: 709px) {
+    .top-cloud {
+        position: absolute;
+        top: -25%;
+        right: 20%;
+    }
+    
+    .bottom-cloud {
+        position: absolute;
+        left: 3%;
+        bottom: 35%;
+        
+    }
+  }
