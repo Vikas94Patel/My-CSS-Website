@@ -102,14 +102,12 @@ hr {
 @media screen and (max-width: 709px) {
     .top-cloud {
         position: absolute;
-        top: -25%;
-        right: 20%;
+        top: -30%;
+        right: 10%;
     }
     
     .bottom-cloud {
-        position: absolute;
-        left: 3%;
-        bottom: 35%;
+        display: none;
         
     }
   }
