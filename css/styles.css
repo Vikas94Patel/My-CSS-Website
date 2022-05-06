@@ -64,12 +64,13 @@ hr {
     line-height: 2;
 }
 
-/* education Section */
+/* projects Section */
 
-.education-img {
-    border-radius: 100%;
-    height: 50%;
-    width: 50%
+.projects-img {
+    margin: auto;
+    border-radius: 5%;
+    height: 80%;
+    width: 80%
     
 }
 
